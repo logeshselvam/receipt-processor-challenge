@@ -5,6 +5,8 @@ docker-compose up --build
 This command will install the necessary packages and will check for the test case and start the server .
 server will start at the 3000 port .
 
+Note: -> When you restart the server the old receipt data will be deleted from the DB.
+
 # Api Details : 
 # Description :Submits a receipt for processing
 URL : http://localhost:3000/receipts/process
@@ -41,7 +43,7 @@ Response : { "points": 109}
 
 # server.js
 This Files has the node server and mongo server start commands 
-Note: -> When you restart the server the old receipt data will be deleted from the DB.
+
 
 # app.js
 This file has the api that was mentioned in the README file.
