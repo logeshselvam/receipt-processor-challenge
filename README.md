@@ -1,5 +1,8 @@
 # Receipt Processor
 
+# Requirement 
+Docker 
+
 # Command to start
 docker-compose up --build  
 This command will install the necessary packages and will check for the test case and start the server .
