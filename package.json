@@ -1,0 +1,27 @@
+{
+  "name": "receipt-processor",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai-http": "^4.4.0",
+    "dotenv": "^16.3.1",
+    "express": "4.17.1",
+    "mongoose": "^7.4.2",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "start": "nodemon ./src/server.js",
+    "test": "mocha ./src/test/test.js"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "concurrently": "^8.0.1",
+    "mocha": "^10.2.0",
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=10.16.3"
+  },
+  "engineStrict": true
+}
