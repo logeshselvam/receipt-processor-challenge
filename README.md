@@ -1,4 +1,4 @@
-# receipt-processor-challenge
+# Receipt Processor
 
 # Command to start
 docker-compose up --build  
