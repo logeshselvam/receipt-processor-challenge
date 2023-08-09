@@ -11,8 +11,9 @@
     "uuid": "^8.3.2"
   },
   "scripts": {
+    "test": "mocha ./src/test/test.js",
     "start": "nodemon ./src/server.js",
-    "test": "mocha ./src/test/test.js"
+    "start:test":"npm run test && npm run start"
   },
   "devDependencies": {
     "chai": "^4.3.7",

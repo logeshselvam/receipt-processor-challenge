@@ -9,7 +9,7 @@ const expect = chai.expect;
 describe('Receipt API', () => {
   before(async () => {
     // Connect to a test database before running the tests
-    await mongoose.connect('mongodb://localhost:27017/testdb', {
+    await mongoose.connect(`mongodb://mongo:27017/testdb`, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });

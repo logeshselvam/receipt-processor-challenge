@@ -39,10 +39,6 @@ async function connect_mongo() {
   }
 };
 
-function getConnection() {
-  return connection;
-}
-
 // Delete all documents from the Receipt collection
 async function deleteAllReceipts() {
   const Receipt=require('./model');
@@ -55,5 +51,3 @@ async function deleteAllReceipts() {
 }
 
 
-
-module.exports = { getConnection };
